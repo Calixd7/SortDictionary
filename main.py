@@ -24,7 +24,7 @@ for b in books:
 #all prices print, no title
 
 
-#SOULTION
+#SOLUTION
 
 
 def sortBooks(list):
