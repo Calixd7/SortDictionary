@@ -1,5 +1,5 @@
 books = [
-  {"name": "The Color Purple'", "author": "Walker, Alice", "price":19.99},
+  {"name": "The Color Purple", "author": "Walker, Alice", "price":19.99},
   {"name": "The Autobiography of Malcolm X", "author": "X, Malcolm", "price":29.99},
   {"name": "Sasha Savvy Loves to Code", "author": "Alson, Sasha Ariel", "price":10},
 ]
@@ -35,3 +35,17 @@ def sortBooks(list):
       print (i["name"] + " is over $20.00,")
 
 sortBooks (books)
+
+
+
+
+
+#print just the books under 20
+def underTwentyOnly(list):
+  for i in list:
+    if i["price"] <=20: #checks the price
+      print (i["name"]) #prints the title
+    else:
+      print 
+
+underTwentyOnly (books) 
